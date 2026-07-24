@@ -6,9 +6,25 @@ from annonce import Annonce
 
 from dotenv import load_dotenv
 import os
+import scraper
 
+
+
+
+
+# Peu importe la recherche Fonctionne en 2 temps : 
+#     1. requête get en http : renvoie la liste des annonces 
+#           Sélection des annonces non explorées et potentiellement interessantes
+#     2. Visite des annonces sélectionnées :  
+#           - Si annonce jamais vu (comparer avec le list_id) alors on l'explore
+#           - on créé un objet annonce avec prix et description          
+# 
+# Lecture de la description -> 
+
+# Ces variables peuvent expirer : pour le moment elles sont reconfigurées à la main
 
 load_dotenv()
+
 BUILD_ID_CACHE = None
 
 
@@ -29,17 +45,6 @@ def get_build_id():
 
 
 
-def search_ads(keyword):
-      """Renvoie le json de la liste des résultats de la recherche 'keyword' """
-      build_id = get_build_id()
-      response = requests.get(f"https://www.leboncoin.fr/_next/data/{build_id}/recherche.json?text={keyword}&kst=k",
-                        headers= {"User-Agent" : os.environ["USER_AGENT"],
-                                   "Cookie" : os.environ["COOKIE"]})
-      
-      if response.status_code != [200] :
-             Exception(f"Erreur dans search_ads : status_code : {response.status_code}")
-      
-      return response.json()["pageProps"]["searchData"]["ads"]
 
 
 
@@ -58,7 +63,7 @@ def ad_body(list_id):
 def get_liste_annonce(keyword, scraped_annonces):
       """Renvoie la liste des annonces de la recherche sous forme d'objet Annonce"""
       liste_annonce = []
-      for add in search_ads(keyword):
+      for add in scraper.search_ads(keyword):
             annonce = Annonce(add["list_id"], add["subject"], ad_body(add["list_id"]), add["price"])
             if annonce.id in scraped_annonces : 
                   print("annonce num : ", annonce.id, " déjà vue")
