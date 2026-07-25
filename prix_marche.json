@@ -1,0 +1,83 @@
+{
+    "cpu": {
+        "Core Ultra 9 285K": {
+            "min": 290,
+            "max": 550,
+            "mediane": 440.0,
+            "moyenne": 407.5,
+            "nb": 8
+        },
+        "Core Ultra 7 270K": {
+            "min": 290,
+            "max": 290,
+            "mediane": 290,
+            "moyenne": 290,
+            "nb": 1
+        },
+        "Core Ultra 7 265K": {
+            "min": 200,
+            "max": 3500,
+            "mediane": 265.0,
+            "moyenne": 607.5,
+            "nb": 12
+        },
+        "Core Ultra 5 250K": {
+            "min": 169,
+            "max": 169,
+            "mediane": 169,
+            "moyenne": 169,
+            "nb": 1
+        },
+        "Core Ultra 5 245K": {
+            "min": 130,
+            "max": 1249,
+            "mediane": 240,
+            "moyenne": 424.8,
+            "nb": 5
+        },
+        "i9-14900K": {
+            "min": 225,
+            "max": 2450,
+            "mediane": 375.0,
+            "moyenne": 520.43,
+            "nb": 14
+        },
+        "i7-14700K": {
+            "min": 5,
+            "max": 1100,
+            "mediane": 245.0,
+            "moyenne": 311.25,
+            "nb": 12
+        },
+        "i5-14600K": {
+            "min": 10,
+            "max": 1900,
+            "mediane": 210,
+            "moyenne": 716.44,
+            "nb": 9
+        },
+        "i9-13900K": {
+            "min": 200,
+            "max": 650,
+            "mediane": 350.0,
+            "moyenne": 359.29,
+            "nb": 14
+        },
+        "i7-13700K": {
+            "min": 80,
+            "max": 3000,
+            "mediane": 290,
+            "moyenne": 548.67,
+            "nb": 15
+        }
+    },
+    "gpu": {
+        "RTX 5090": {
+            "min": 250,
+            "max": 6200,
+            "mediane": 2500,
+            "moyenne": 2460.69,
+            "nb": 13
+        }
+    }
+}
