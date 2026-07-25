@@ -67,7 +67,7 @@ def get_mean_price_comp(comp) -> dict:
 
     # Partie IA
     completion = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="llama-3.1-8b-instant",
         messages=[
             {"role": "system", "content": INSTRUCTIONS},
             {"role": "user", "content": text_annonces},
@@ -86,4 +86,25 @@ def get_mean_price_comp(comp) -> dict:
     price_list = [a["price"][0] for a in annonces if a["list_id"] in id_valides]  # La liste des prix valides
 
     # [min , max , moyenne , mediane]
-    return [min(price_list), max(price_list), statistics.mean(price_list), statistics.median(price_list)]
+    return {
+        "min": min(price_list),
+        "max": max(price_list),
+        "mediane": round(statistics.median(price_list), 2),
+        "moyenne": round(statistics.mean(price_list), 2),
+        "nb": len(price_list),
+    }
+
+
+def update_all_price():
+    data = json_fun.read_json("prix_composants.json")
+    res = {}
+    for categorie in ["cpu", "gpu", "ram", "stockage"]:
+        res[categorie] = {}
+        for comp in data[categorie]:
+            res[categorie][comp] = get_mean_price_comp(comp)
+            res[categorie][comp]
+
+    json_fun.write_json("prix_composants.json", res)
+
+
+update_all_price()
