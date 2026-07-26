@@ -1,0 +1,1131 @@
+[
+    {
+        "list_id": 3237218206,
+        "first_publication_date": "2026-07-22 11:05:25",
+        "index_date": "2026-07-22 11:05:25",
+        "status": "active",
+        "category_id": "15",
+        "category_name": "Ordinateurs",
+        "subject": "Pc gamins rtx 5080",
+        "body": "",
+        "brand": "leboncoin",
+        "ad_type": "offer",
+        "url": "https://www.leboncoin.fr/ad/ordinateurs/3237218206",
+        "price": [
+            1600
+        ],
+        "price_cents": 160000,
+        "images": {
+            "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/73/4d/02/734d020034c97c01694d90c7819bdb77c7a6ed5d.jpg?rule=ad-thumb",
+            "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/73/4d/02/734d020034c97c01694d90c7819bdb77c7a6ed5d.jpg?rule=ad-small",
+            "nb_images": 2,
+            "urls": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/73/4d/02/734d020034c97c01694d90c7819bdb77c7a6ed5d.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/ce/f7/59/cef759c7fe76b829c36f2b6e711678c36ff9652f.jpg?rule=ad-image"
+            ],
+            "urls_thumb": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/73/4d/02/734d020034c97c01694d90c7819bdb77c7a6ed5d.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/ce/f7/59/cef759c7fe76b829c36f2b6e711678c36ff9652f.jpg?rule=ad-thumb"
+            ],
+            "urls_large": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/73/4d/02/734d020034c97c01694d90c7819bdb77c7a6ed5d.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/ce/f7/59/cef759c7fe76b829c36f2b6e711678c36ff9652f.jpg?rule=ad-large"
+            ]
+        },
+        "attributes": [
+            {
+                "key": "profile_picture_url",
+                "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/f6523056-da1a-5828-81df-127627ca13d6?rule=pp-small",
+                "values": [
+                    "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/f6523056-da1a-5828-81df-127627ca13d6?rule=pp-small"
+                ],
+                "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/f6523056-da1a-5828-81df-127627ca13d6?rule=pp-small",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_weight",
+                "value": "10000",
+                "values": [
+                    "10000"
+                ],
+                "value_label": "10000",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_size",
+                "value": "M",
+                "values": [
+                    "M"
+                ],
+                "value_label": "M",
+                "generic": false
+            },
+            {
+                "key": "is_bundleable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "is_eligible_to_warranty",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "purchase_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "negotiation_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "country_isocode3166",
+                "value": "FR",
+                "values": [
+                    "FR"
+                ],
+                "value_label": "FR",
+                "generic": false
+            },
+            {
+                "key": "condition",
+                "value": "etatneuf",
+                "values": [
+                    "etatneuf"
+                ],
+                "key_label": "État",
+                "value_label": "État neuf",
+                "generic": true
+            },
+            {
+                "key": "computer_type",
+                "value": "desktop",
+                "values": [
+                    "desktop"
+                ],
+                "key_label": "Type",
+                "value_label": "Fixe",
+                "generic": true
+            },
+            {
+                "key": "computer_usage",
+                "value": "gaming",
+                "values": [
+                    "gaming"
+                ],
+                "key_label": "Usage",
+                "value_label": "Gaming",
+                "generic": true
+            },
+            {
+                "key": "shipping_type",
+                "value": "face_to_face",
+                "values": [
+                    "face_to_face"
+                ],
+                "value_label": "face_to_face",
+                "generic": false
+            },
+            {
+                "key": "shippable",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "is_import",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "payment_methods",
+                "value": "installments3x",
+                "values": [
+                    "installments3x",
+                    "installments4x"
+                ],
+                "value_label": "installments3x",
+                "generic": false
+            }
+        ],
+        "location": {
+            "country_id": "FR",
+            "region_id": "22",
+            "region_name": "Rhône-Alpes",
+            "department_id": "26",
+            "department_name": "Drôme",
+            "city_label": "Serves-sur-Rhône 26600",
+            "city": "Serves-sur-Rhône",
+            "zipcode": "26600",
+            "lat": 45.13558,
+            "lng": 4.81731,
+            "source": "city",
+            "provider": "here",
+            "type": "",
+            "origin_type": "",
+            "is_shape": true,
+            "feature": {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        4.81731,
+                        45.13558
+                    ]
+                },
+                "properties": null
+            }
+        },
+        "owner": {
+            "store_id": "55152403",
+            "user_id": "723bd9e7-73cc-403f-bcea-0e8596c289c3",
+            "type": "private",
+            "name": "Jonathan",
+            "no_salesmen": true,
+            "activity_sector": ""
+        },
+        "options": {
+            "has_option": false,
+            "booster": false,
+            "photosup": false,
+            "urgent": false,
+            "gallery": false,
+            "sub_toplist": false,
+            "continuous_top_ads": false,
+            "highlight": false
+        },
+        "has_phone": false,
+        "similar": null,
+        "counters": {},
+        "buyer_fee": {
+            "amount": 99
+        }
+    },
+    {
+        "list_id": 3210456771,
+        "first_publication_date": "2026-06-04 16:49:11",
+        "index_date": "2026-07-21 12:01:00",
+        "status": "active",
+        "category_id": "15",
+        "category_name": "Ordinateurs",
+        "subject": "ASUS ROG Astral RTX 5080 16 Go",
+        "body": "",
+        "brand": "leboncoin",
+        "ad_type": "offer",
+        "url": "https://www.leboncoin.fr/ad/ordinateurs/3210456771",
+        "price": [
+            1600
+        ],
+        "price_cents": 160000,
+        "images": {
+            "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/9c/7d/f1/9c7df12f99856858bba559551a35eadbd6e606a7.jpg?rule=ad-thumb",
+            "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/9c/7d/f1/9c7df12f99856858bba559551a35eadbd6e606a7.jpg?rule=ad-small",
+            "nb_images": 5,
+            "urls": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/9c/7d/f1/9c7df12f99856858bba559551a35eadbd6e606a7.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/57/b4/bd/57b4bd121e3da72f25d62077b54a02b512bfffe1.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/d3/9e/e6/d39ee6eb2efcca72f03dda112c2020bfca08d191.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c4/5e/3a/c45e3aed33d2d3cb0e38e7690fd4e64a6e2020b0.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/65/28/c965285d53349c056e26713008d2419beba07f77.jpg?rule=ad-image"
+            ],
+            "urls_thumb": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/9c/7d/f1/9c7df12f99856858bba559551a35eadbd6e606a7.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/57/b4/bd/57b4bd121e3da72f25d62077b54a02b512bfffe1.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/d3/9e/e6/d39ee6eb2efcca72f03dda112c2020bfca08d191.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c4/5e/3a/c45e3aed33d2d3cb0e38e7690fd4e64a6e2020b0.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/65/28/c965285d53349c056e26713008d2419beba07f77.jpg?rule=ad-thumb"
+            ],
+            "urls_large": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/9c/7d/f1/9c7df12f99856858bba559551a35eadbd6e606a7.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/57/b4/bd/57b4bd121e3da72f25d62077b54a02b512bfffe1.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/d3/9e/e6/d39ee6eb2efcca72f03dda112c2020bfca08d191.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c4/5e/3a/c45e3aed33d2d3cb0e38e7690fd4e64a6e2020b0.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/65/28/c965285d53349c056e26713008d2419beba07f77.jpg?rule=ad-large"
+            ]
+        },
+        "attributes": [
+            {
+                "key": "profile_picture_url",
+                "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/7aa0c086-05a0-500d-86e1-3449496f0ccd?rule=pp-small",
+                "values": [
+                    "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/7aa0c086-05a0-500d-86e1-3449496f0ccd?rule=pp-small"
+                ],
+                "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/7aa0c086-05a0-500d-86e1-3449496f0ccd?rule=pp-small",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_weight",
+                "value": "6277",
+                "values": [
+                    "6277"
+                ],
+                "value_label": "6277",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_size",
+                "value": "M",
+                "values": [
+                    "M"
+                ],
+                "value_label": "M",
+                "generic": false
+            },
+            {
+                "key": "is_bundleable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "is_eligible_to_warranty",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "purchase_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "negotiation_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "country_isocode3166",
+                "value": "FR",
+                "values": [
+                    "FR"
+                ],
+                "value_label": "FR",
+                "generic": false
+            },
+            {
+                "key": "condition",
+                "value": "etatneuf",
+                "values": [
+                    "etatneuf"
+                ],
+                "key_label": "État",
+                "value_label": "État neuf",
+                "generic": true
+            },
+            {
+                "key": "computer_type",
+                "value": "laptop",
+                "values": [
+                    "laptop"
+                ],
+                "key_label": "Type",
+                "value_label": "Portable",
+                "generic": true
+            },
+            {
+                "key": "computer_brand",
+                "value": "asus",
+                "values": [
+                    "asus"
+                ],
+                "key_label": "Marque",
+                "value_label": "Asus",
+                "generic": true
+            },
+            {
+                "key": "computer_usage",
+                "value": "gaming",
+                "values": [
+                    "gaming"
+                ],
+                "key_label": "Usage",
+                "value_label": "Gaming",
+                "generic": true
+            },
+            {
+                "key": "shipping_type",
+                "value": "face_to_face",
+                "values": [
+                    "face_to_face"
+                ],
+                "value_label": "face_to_face",
+                "generic": false
+            },
+            {
+                "key": "shippable",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "is_import",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "payment_methods",
+                "value": "installments3x",
+                "values": [
+                    "installments3x",
+                    "installments4x"
+                ],
+                "value_label": "installments3x",
+                "generic": false
+            }
+        ],
+        "location": {
+            "country_id": "FR",
+            "region_id": "6",
+            "region_name": "Bretagne",
+            "department_id": "29",
+            "department_name": "Finistère",
+            "city_label": "Quimper 29000",
+            "city": "Quimper",
+            "zipcode": "29000",
+            "lat": 47.99471,
+            "lng": -4.10792,
+            "source": "city",
+            "provider": "here",
+            "type": "",
+            "origin_type": "",
+            "is_shape": true,
+            "feature": {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -4.10792,
+                        47.99471
+                    ]
+                },
+                "properties": null
+            }
+        },
+        "owner": {
+            "store_id": "11797293",
+            "user_id": "a3e156ed-792b-4273-8616-2f786a30d7d4",
+            "type": "private",
+            "name": "campingcar",
+            "no_salesmen": true,
+            "activity_sector": ""
+        },
+        "options": {
+            "has_option": false,
+            "booster": false,
+            "photosup": false,
+            "urgent": false,
+            "gallery": false,
+            "sub_toplist": false,
+            "continuous_top_ads": false,
+            "highlight": false
+        },
+        "has_phone": false,
+        "similar": null,
+        "counters": {},
+        "buyer_fee": {
+            "amount": 99
+        }
+    },
+    {
+        "list_id": 3223326976,
+        "first_publication_date": "2026-06-26 18:26:37",
+        "index_date": "2026-06-26 18:26:37",
+        "status": "active",
+        "category_id": "83",
+        "category_name": "Accessoires informatique",
+        "subject": "RTX 5080 Tuf gaming",
+        "body": "",
+        "brand": "leboncoin",
+        "ad_type": "offer",
+        "url": "https://www.leboncoin.fr/ad/accessoires_informatique/3223326976",
+        "price": [
+            1399
+        ],
+        "price_cents": 139900,
+        "images": {
+            "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/64/43/92/64439261e88b5e9c45a56833b3a12faf4e2b78f7.jpg?rule=ad-thumb",
+            "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/64/43/92/64439261e88b5e9c45a56833b3a12faf4e2b78f7.jpg?rule=ad-small",
+            "nb_images": 3,
+            "urls": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/64/43/92/64439261e88b5e9c45a56833b3a12faf4e2b78f7.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/43/ed/73/43ed7379d6c6042370d040977046d659fee7cf2f.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/44/3b/ba/443bba43c8f1d2b772fa854adef03392828c4132.jpg?rule=ad-image"
+            ],
+            "urls_thumb": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/64/43/92/64439261e88b5e9c45a56833b3a12faf4e2b78f7.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/43/ed/73/43ed7379d6c6042370d040977046d659fee7cf2f.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/44/3b/ba/443bba43c8f1d2b772fa854adef03392828c4132.jpg?rule=ad-thumb"
+            ],
+            "urls_large": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/64/43/92/64439261e88b5e9c45a56833b3a12faf4e2b78f7.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/43/ed/73/43ed7379d6c6042370d040977046d659fee7cf2f.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/44/3b/ba/443bba43c8f1d2b772fa854adef03392828c4132.jpg?rule=ad-large"
+            ]
+        },
+        "attributes": [
+            {
+                "key": "rating_score",
+                "value": "1",
+                "values": [
+                    "1"
+                ],
+                "value_label": "1",
+                "generic": false
+            },
+            {
+                "key": "rating_count",
+                "value": "16",
+                "values": [
+                    "16"
+                ],
+                "value_label": "16",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_weight",
+                "value": "3381",
+                "values": [
+                    "3381"
+                ],
+                "value_label": "3381",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_size",
+                "value": "M",
+                "values": [
+                    "M"
+                ],
+                "value_label": "M",
+                "generic": false
+            },
+            {
+                "key": "is_bundleable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "purchase_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "negotiation_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "country_isocode3166",
+                "value": "FR",
+                "values": [
+                    "FR"
+                ],
+                "value_label": "FR",
+                "generic": false
+            },
+            {
+                "key": "condition",
+                "value": "tresbonetat",
+                "values": [
+                    "tresbonetat"
+                ],
+                "key_label": "État",
+                "value_label": "Très bon état",
+                "generic": true
+            },
+            {
+                "key": "computer_accessories_product",
+                "value": "graphiccard",
+                "values": [
+                    "graphiccard"
+                ],
+                "key_label": "Produit",
+                "value_label": "Carte graphique",
+                "generic": true
+            },
+            {
+                "key": "computer_accessories_brand",
+                "value": "asus",
+                "values": [
+                    "asus"
+                ],
+                "key_label": "Marques",
+                "value_label": "Asus",
+                "generic": true
+            },
+            {
+                "key": "shipping_type",
+                "value": "mondial_relay",
+                "values": [
+                    "mondial_relay",
+                    "shop2shop",
+                    "face_to_face"
+                ],
+                "value_label": "mondial_relay",
+                "generic": false
+            },
+            {
+                "key": "shippable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "is_import",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "payment_methods",
+                "value": "installments3x",
+                "values": [
+                    "installments3x",
+                    "installments4x"
+                ],
+                "value_label": "installments3x",
+                "generic": false
+            }
+        ],
+        "location": {
+            "country_id": "FR",
+            "region_id": "16",
+            "region_name": "Midi-Pyrénées",
+            "department_id": "31",
+            "department_name": "Haute-Garonne",
+            "city_label": "Toulouse 31000",
+            "city": "Toulouse",
+            "zipcode": "31000",
+            "lat": 43.60579,
+            "lng": 1.44863,
+            "source": "city",
+            "provider": "here",
+            "type": "",
+            "origin_type": "",
+            "is_shape": true,
+            "feature": {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        1.44863,
+                        43.60579
+                    ]
+                },
+                "properties": null
+            }
+        },
+        "owner": {
+            "store_id": "39057257",
+            "user_id": "beca56ac-ad21-43ac-bae7-f3e8c2cf879f",
+            "type": "private",
+            "name": "Louis",
+            "no_salesmen": true,
+            "activity_sector": ""
+        },
+        "options": {
+            "has_option": false,
+            "booster": false,
+            "photosup": false,
+            "urgent": false,
+            "gallery": false,
+            "sub_toplist": false,
+            "continuous_top_ads": false,
+            "highlight": false
+        },
+        "has_phone": false,
+        "similar": null,
+        "counters": {},
+        "buyer_fee": {
+            "amount": 99
+        }
+    },
+    {
+        "list_id": 3235248018,
+        "first_publication_date": "2026-07-18 21:14:42",
+        "index_date": "2026-07-26 01:04:24",
+        "status": "active",
+        "category_id": "15",
+        "category_name": "Ordinateurs",
+        "subject": "PC Gamer Haut de Gamme RTX 5080 / i9-14900K – Comme neuf",
+        "body": "",
+        "brand": "leboncoin",
+        "ad_type": "offer",
+        "url": "https://www.leboncoin.fr/ad/ordinateurs/3235248018",
+        "price": [
+            2400
+        ],
+        "price_cents": 240000,
+        "images": {
+            "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/17/fe/6317feb26c336015b9d396f434a0e57396ac6538.jpg?rule=ad-thumb",
+            "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/17/fe/6317feb26c336015b9d396f434a0e57396ac6538.jpg?rule=ad-small",
+            "nb_images": 5,
+            "urls": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/17/fe/6317feb26c336015b9d396f434a0e57396ac6538.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c4/fd/73/c4fd73038271eec8f952dbdc7975b659a4ad13e6.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/af/9b/5b/af9b5bebf16f9ff82627275763cbde1319cecdce.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c4/63/65/c46365115a0e08b58cfebd0bf6ae56dfc402d48a.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/38/e8/07/38e807277a56aa174f00d03c813f5cd5142cbcc5.jpg?rule=ad-image"
+            ],
+            "urls_thumb": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/17/fe/6317feb26c336015b9d396f434a0e57396ac6538.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c4/fd/73/c4fd73038271eec8f952dbdc7975b659a4ad13e6.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/af/9b/5b/af9b5bebf16f9ff82627275763cbde1319cecdce.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c4/63/65/c46365115a0e08b58cfebd0bf6ae56dfc402d48a.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/38/e8/07/38e807277a56aa174f00d03c813f5cd5142cbcc5.jpg?rule=ad-thumb"
+            ],
+            "urls_large": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/17/fe/6317feb26c336015b9d396f434a0e57396ac6538.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c4/fd/73/c4fd73038271eec8f952dbdc7975b659a4ad13e6.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/af/9b/5b/af9b5bebf16f9ff82627275763cbde1319cecdce.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c4/63/65/c46365115a0e08b58cfebd0bf6ae56dfc402d48a.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/38/e8/07/38e807277a56aa174f00d03c813f5cd5142cbcc5.jpg?rule=ad-large"
+            ]
+        },
+        "attributes": [
+            {
+                "key": "profile_picture_url",
+                "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/41f75408-1cd0-50c4-867a-9ed957f9b68c?rule=pp-small",
+                "values": [
+                    "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/41f75408-1cd0-50c4-867a-9ed957f9b68c?rule=pp-small"
+                ],
+                "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/41f75408-1cd0-50c4-867a-9ed957f9b68c?rule=pp-small",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_weight",
+                "value": "11710",
+                "values": [
+                    "11710"
+                ],
+                "value_label": "11710",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_size",
+                "value": "M",
+                "values": [
+                    "M"
+                ],
+                "value_label": "M",
+                "generic": false
+            },
+            {
+                "key": "is_bundleable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "purchase_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "negotiation_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "country_isocode3166",
+                "value": "FR",
+                "values": [
+                    "FR"
+                ],
+                "value_label": "FR",
+                "generic": false
+            },
+            {
+                "key": "condition",
+                "value": "tresbonetat",
+                "values": [
+                    "tresbonetat"
+                ],
+                "key_label": "État",
+                "value_label": "Très bon état",
+                "generic": true
+            },
+            {
+                "key": "computer_type",
+                "value": "centralunit",
+                "values": [
+                    "centralunit"
+                ],
+                "key_label": "Type",
+                "value_label": "Unité centrale (seule)",
+                "generic": true
+            },
+            {
+                "key": "computer_brand",
+                "value": "other",
+                "values": [
+                    "other"
+                ],
+                "key_label": "Marque",
+                "value_label": "Autre",
+                "generic": true
+            },
+            {
+                "key": "computer_usage",
+                "value": "gaming",
+                "values": [
+                    "gaming"
+                ],
+                "key_label": "Usage",
+                "value_label": "Gaming",
+                "generic": true
+            },
+            {
+                "key": "shipping_type",
+                "value": "face_to_face",
+                "values": [
+                    "face_to_face"
+                ],
+                "value_label": "face_to_face",
+                "generic": false
+            },
+            {
+                "key": "shippable",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "is_import",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            }
+        ],
+        "location": {
+            "country_id": "FR",
+            "region_id": "12",
+            "region_name": "Ile-de-France",
+            "department_id": "92",
+            "department_name": "Hauts-de-Seine",
+            "city_label": "Gennevilliers 92230",
+            "city": "Gennevilliers",
+            "zipcode": "92230",
+            "lat": 48.92502,
+            "lng": 2.29446,
+            "source": "city",
+            "provider": "here",
+            "type": "",
+            "origin_type": "",
+            "is_shape": true,
+            "feature": {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.29446,
+                        48.92502
+                    ]
+                },
+                "properties": null
+            }
+        },
+        "owner": {
+            "store_id": "70435043",
+            "user_id": "b3cca551-33be-415a-a070-00312d40659e",
+            "type": "private",
+            "name": "yns922_3",
+            "no_salesmen": true,
+            "activity_sector": ""
+        },
+        "options": {
+            "has_option": true,
+            "booster": false,
+            "photosup": false,
+            "urgent": false,
+            "gallery": false,
+            "sub_toplist": true,
+            "continuous_top_ads": false,
+            "highlight": false
+        },
+        "has_phone": false,
+        "is_boosted": true,
+        "similar": null,
+        "counters": {},
+        "buyer_fee": {
+            "amount": 99
+        }
+    },
+    {
+        "list_id": 2965764527,
+        "first_publication_date": "2026-07-04 11:46:35",
+        "expiration_date": "2026-09-02 11:46:35",
+        "index_date": "2026-07-04 11:46:35",
+        "status": "active",
+        "category_id": "83",
+        "category_name": "Accessoires informatique",
+        "subject": "Rtx 5080 winforce",
+        "body": "",
+        "brand": "leboncoin",
+        "ad_type": "offer",
+        "url": "https://www.leboncoin.fr/ad/accessoires_informatique/2965764527",
+        "price": [
+            1099
+        ],
+        "price_cents": 109900,
+        "images": {
+            "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/52/85/b05285e458c0cf1d9910c004581843f88b0acc28.jpg?rule=ad-thumb",
+            "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/52/85/b05285e458c0cf1d9910c004581843f88b0acc28.jpg?rule=ad-small",
+            "nb_images": 3,
+            "urls": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/52/85/b05285e458c0cf1d9910c004581843f88b0acc28.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/ec/4c/db/ec4cdb0c8eed1f9f188f46af980753706e8203a1.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/cd/ac/37cdac7ac13c53a52f5c5dac29e9fa7d57d3aa22.jpg?rule=ad-image"
+            ],
+            "urls_thumb": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/52/85/b05285e458c0cf1d9910c004581843f88b0acc28.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/ec/4c/db/ec4cdb0c8eed1f9f188f46af980753706e8203a1.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/cd/ac/37cdac7ac13c53a52f5c5dac29e9fa7d57d3aa22.jpg?rule=ad-thumb"
+            ],
+            "urls_large": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/52/85/b05285e458c0cf1d9910c004581843f88b0acc28.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/ec/4c/db/ec4cdb0c8eed1f9f188f46af980753706e8203a1.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/cd/ac/37cdac7ac13c53a52f5c5dac29e9fa7d57d3aa22.jpg?rule=ad-large"
+            ]
+        },
+        "attributes": [
+            {
+                "key": "activity_sector",
+                "value": "3",
+                "values": [
+                    "3"
+                ],
+                "value_label": "3",
+                "generic": false
+            },
+            {
+                "key": "stock_quantity",
+                "value": "1",
+                "values": [
+                    "1"
+                ],
+                "value_label": "1",
+                "generic": false
+            },
+            {
+                "key": "country_isocode3166",
+                "value": "FR",
+                "values": [
+                    "FR"
+                ],
+                "value_label": "FR",
+                "generic": false
+            },
+            {
+                "key": "condition",
+                "value": "etatneuf",
+                "values": [
+                    "etatneuf"
+                ],
+                "key_label": "État",
+                "value_label": "État neuf",
+                "generic": true
+            },
+            {
+                "key": "new_item_type",
+                "value": "destockage",
+                "values": [
+                    "destockage"
+                ],
+                "key_label": "Type d'article neuf",
+                "value_label": "Déstockage",
+                "generic": false
+            },
+            {
+                "key": "computer_accessories_product",
+                "value": "graphiccard",
+                "values": [
+                    "graphiccard"
+                ],
+                "key_label": "Produit",
+                "value_label": "Carte graphique",
+                "generic": true
+            },
+            {
+                "key": "new_item_price",
+                "value": "109900",
+                "values": [
+                    "109900"
+                ],
+                "value_label": "109900",
+                "generic": false
+            },
+            {
+                "key": "shippable",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "is_import",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "old_price",
+                "value": "1459",
+                "values": [
+                    "1459"
+                ],
+                "value_label": "1459",
+                "generic": false
+            },
+            {
+                "key": "spare_parts_availability",
+                "value": "non_renseignee",
+                "values": [
+                    "non_renseignee"
+                ],
+                "key_label": "Durée de disponibilité des pièces détachées",
+                "value_label": "Non renseignée",
+                "generic": true
+            }
+        ],
+        "location": {
+            "country_id": "FR",
+            "region_id": "15",
+            "region_name": "Lorraine",
+            "department_id": "88",
+            "department_name": "Vosges",
+            "city_label": "Épinal 88000",
+            "city": "Épinal",
+            "zipcode": "88000",
+            "lat": 48.17592,
+            "lng": 6.44979,
+            "source": "city",
+            "provider": "here",
+            "type": "",
+            "origin_type": "",
+            "is_shape": true,
+            "feature": {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        6.44979,
+                        48.17592
+                    ]
+                },
+                "properties": null
+            }
+        },
+        "owner": {
+            "store_id": "81470725",
+            "user_id": "691b2784-e0ef-4acb-8505-0ec0c250f170",
+            "type": "pro",
+            "name": "ROM COLLECTION",
+            "siren": "409589025",
+            "no_salesmen": true,
+            "activity_sector": "3"
+        },
+        "options": {
+            "has_option": false,
+            "booster": false,
+            "photosup": false,
+            "urgent": false,
+            "gallery": false,
+            "sub_toplist": false,
+            "continuous_top_ads": false,
+            "highlight": false
+        },
+        "has_phone": true,
+        "similar": null,
+        "counters": {},
+        "buyer_fee": {
+            "amount": 5565
+        }
+    }
+]

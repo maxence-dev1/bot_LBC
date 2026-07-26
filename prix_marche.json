@@ -73,11 +73,165 @@
     },
     "gpu": {
         "RTX 5090": {
-            "min": 250,
-            "max": 6200,
-            "mediane": 2500,
-            "moyenne": 2460.69,
+            "min": 600,
+            "max": 3800,
+            "mediane": 2550.0,
+            "moyenne": 2741.58,
+            "nb": 12
+        },
+        "RTX 5080": {
+            "min": 900,
+            "max": 1500,
+            "mediane": 1150,
+            "moyenne": 1166.53,
+            "nb": 15
+        },
+        "RTX 5070 Ti": {
+            "min": 600,
+            "max": 1000,
+            "mediane": 850,
+            "moyenne": 846.92,
             "nb": 13
+        },
+        "RTX 5070": {
+            "min": 520,
+            "max": 1000,
+            "mediane": 630.0,
+            "moyenne": 676.56,
+            "nb": 18
+        },
+        "RTX 5060 Ti 16GB": {
+            "min": 490,
+            "max": 600,
+            "mediane": 560,
+            "moyenne": 563.45,
+            "nb": 11
+        },
+        "RTX 5060 Ti 8GB": {
+            "min": 350,
+            "max": 450,
+            "mediane": 365.0,
+            "moyenne": 380,
+            "nb": 6
+        },
+        "RTX 5060": {
+            "min": 260,
+            "max": 600,
+            "mediane": 350,
+            "moyenne": 371.42,
+            "nb": 19
+        },
+        "RTX 5050": {
+            "min": 180,
+            "max": 360,
+            "mediane": 260,
+            "moyenne": 265.56,
+            "nb": 9
+        },
+        "RTX 4090": {
+            "min": 1800,
+            "max": 2400,
+            "mediane": 2125.0,
+            "moyenne": 2093.62,
+            "nb": 8
+        },
+        "RTX 4080 Super": {
+            "min": 640,
+            "max": 1300,
+            "mediane": 895.0,
+            "moyenne": 900.8,
+            "nb": 10
+        },
+        "RTX 4080": {
+            "min": 780,
+            "max": 1100,
+            "mediane": 885.0,
+            "moyenne": 900.67,
+            "nb": 12
+        },
+        "RTX 4070 Ti Super": {
+            "min": 450,
+            "max": 840,
+            "mediane": 500,
+            "moyenne": 594.14,
+            "nb": 7
+        },
+        "RTX 4070 Ti": {
+            "min": 450,
+            "max": 700,
+            "mediane": 600,
+            "moyenne": 590.38,
+            "nb": 13
+        },
+        "RTX 4070 Super": {
+            "min": 420,
+            "max": 700,
+            "mediane": 570,
+            "moyenne": 562.33,
+            "nb": 15
+        },
+        "RTX 4070": {
+            "min": 399,
+            "max": 730,
+            "mediane": 500,
+            "moyenne": 520.47,
+            "nb": 19
+        },
+        "RTX 4060 Ti 16GB": {
+            "min": 370,
+            "max": 450,
+            "mediane": 400.0,
+            "moyenne": 405,
+            "nb": 4
+        },
+        "RTX 4060 Ti 8GB": {
+            "min": 285,
+            "max": 500,
+            "mediane": 329,
+            "moyenne": 346.08,
+            "nb": 13
+        },
+        "RTX 4060": {
+            "min": 180,
+            "max": 400,
+            "mediane": 250.0,
+            "moyenne": 265.7,
+            "nb": 20
+        },
+        "RTX 3090": {
+            "min": 550,
+            "max": 1500,
+            "mediane": 999,
+            "moyenne": 1058.09,
+            "nb": 11
+        },
+        "RTX 3080 Ti": {
+            "min": 330,
+            "max": 490,
+            "mediane": 435.0,
+            "moyenne": 426.61,
+            "nb": 18
+        },
+        "RTX 3080": {
+            "min": 300,
+            "max": 480,
+            "mediane": 330.0,
+            "moyenne": 359.94,
+            "nb": 18
+        },
+        "RTX 3070 Ti": {
+            "min": 250,
+            "max": 350,
+            "mediane": 292.5,
+            "moyenne": 295,
+            "nb": 20
+        },
+        "RTX 3070": {
+            "min": 190,
+            "max": 300,
+            "mediane": 250,
+            "moyenne": 250,
+            "nb": 23
         }
     }
 }
