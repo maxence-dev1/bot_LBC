@@ -1,11 +1,11 @@
 {
     "cpu": {
         "Core Ultra 9 285K": {
-            "min": 290,
+            "min": 291,
             "max": 550,
-            "mediane": 440.0,
-            "moyenne": 407.5,
-            "nb": 8
+            "mediane": 350,
+            "moyenne": 384.2,
+            "nb": 5
         },
         "Core Ultra 7 270K": {
             "min": 290,
@@ -16,10 +16,10 @@
         },
         "Core Ultra 7 265K": {
             "min": 200,
-            "max": 3500,
-            "mediane": 265.0,
-            "moyenne": 607.5,
-            "nb": 12
+            "max": 280,
+            "mediane": 230,
+            "moyenne": 234,
+            "nb": 5
         },
         "Core Ultra 5 250K": {
             "min": 169,
@@ -29,46 +29,214 @@
             "nb": 1
         },
         "Core Ultra 5 245K": {
-            "min": 130,
-            "max": 1249,
-            "mediane": 240,
-            "moyenne": 424.8,
-            "nb": 5
+            "min": 200,
+            "max": 200,
+            "mediane": 200,
+            "moyenne": 200,
+            "nb": 1
         },
         "i9-14900K": {
-            "min": 225,
-            "max": 2450,
+            "min": 300,
+            "max": 410,
             "mediane": 375.0,
-            "moyenne": 520.43,
-            "nb": 14
+            "moyenne": 368.33,
+            "nb": 6
         },
         "i7-14700K": {
-            "min": 5,
-            "max": 1100,
-            "mediane": 245.0,
-            "moyenne": 311.25,
-            "nb": 12
+            "min": 30,
+            "max": 350,
+            "mediane": 250,
+            "moyenne": 226,
+            "nb": 5
         },
         "i5-14600K": {
-            "min": 10,
-            "max": 1900,
-            "mediane": 210,
-            "moyenne": 716.44,
-            "nb": 9
+            "min": 180,
+            "max": 210,
+            "mediane": 190,
+            "moyenne": 193.8,
+            "nb": 5
         },
         "i9-13900K": {
             "min": 200,
-            "max": 650,
-            "mediane": 350.0,
-            "moyenne": 359.29,
-            "nb": 14
+            "max": 400,
+            "mediane": 350,
+            "moyenne": 335.31,
+            "nb": 13
         },
         "i7-13700K": {
             "min": 80,
-            "max": 3000,
-            "mediane": 290,
-            "moyenne": 548.67,
-            "nb": 15
+            "max": 380,
+            "mediane": 270.0,
+            "moyenne": 254,
+            "nb": 10
+        },
+        "i5-13600K": {
+            "min": 180,
+            "max": 315,
+            "mediane": 200,
+            "moyenne": 231.67,
+            "nb": 3
+        },
+        "i5-13400F": {
+            "min": 70,
+            "max": 230,
+            "mediane": 130.0,
+            "moyenne": 134.83,
+            "nb": 6
+        },
+        "i7-12700K": {
+            "min": 150,
+            "max": 250,
+            "mediane": 189.5,
+            "moyenne": 190.67,
+            "nb": 6
+        },
+        "i5-12600K": {
+            "min": 120,
+            "max": 190,
+            "mediane": 150,
+            "moyenne": 152.22,
+            "nb": 9
+        },
+        "i5-12400F": {
+            "min": 70,
+            "max": 150,
+            "mediane": 115,
+            "moyenne": 118.55,
+            "nb": 11
+        },
+        "Ryzen 9 9950X3D": {
+            "min": 390,
+            "max": 650,
+            "mediane": 535.0,
+            "moyenne": 528.5,
+            "nb": 8
+        },
+        "Ryzen 9 9950X": {
+            "min": 400,
+            "max": 469,
+            "mediane": 444.5,
+            "moyenne": 439.5,
+            "nb": 4
+        },
+        "Ryzen 9 9900X": {
+            "min": 200,
+            "max": 456,
+            "mediane": 355.5,
+            "moyenne": 341.75,
+            "nb": 4
+        },
+        "Ryzen 7 9850X3D": {
+            "min": 150,
+            "max": 440,
+            "mediane": 400.0,
+            "moyenne": 347.5,
+            "nb": 4
+        },
+        "Ryzen 7 9800X3D": {
+            "min": 340,
+            "max": 440,
+            "mediane": 380,
+            "moyenne": 388.42,
+            "nb": 19
+        },
+        "Ryzen 7 9700X": {
+            "min": 180,
+            "max": 240,
+            "mediane": 200,
+            "moyenne": 206.92,
+            "nb": 13
+        },
+        "Ryzen 5 9600X": {
+            "min": 120,
+            "max": 180,
+            "mediane": 150.0,
+            "moyenne": 153.33,
+            "nb": 12
+        },
+        "Ryzen 9 7950X3D": {
+            "min": 300,
+            "max": 620,
+            "mediane": 450,
+            "moyenne": 435.45,
+            "nb": 11
+        },
+        "Ryzen 9 7950X": {
+            "min": 280,
+            "max": 635,
+            "mediane": 380,
+            "moyenne": 405.91,
+            "nb": 11
+        },
+        "Ryzen 7 7800X3D": {
+            "min": 180,
+            "max": 350,
+            "mediane": 265.0,
+            "moyenne": 273,
+            "nb": 20
+        },
+        "Ryzen 7 7700X": {
+            "min": 100,
+            "max": 200,
+            "mediane": 170,
+            "moyenne": 164.23,
+            "nb": 13
+        },
+        "Ryzen 5 7600X": {
+            "min": 100,
+            "max": 145,
+            "mediane": 120,
+            "moyenne": 118.32,
+            "nb": 19
+        },
+        "Ryzen 5 7600": {
+            "min": 110,
+            "max": 180,
+            "mediane": 120,
+            "moyenne": 129.31,
+            "nb": 13
+        },
+        "Ryzen 9 5900X": {
+            "min": 65,
+            "max": 350,
+            "mediane": 232.5,
+            "moyenne": 231.25,
+            "nb": 8
+        },
+        "Ryzen 7 5800X3D": {
+            "min": 115,
+            "max": 420,
+            "mediane": 260.0,
+            "moyenne": 252.5,
+            "nb": 10
+        },
+        "Ryzen 7 5800X": {
+            "min": 120,
+            "max": 249,
+            "mediane": 180,
+            "moyenne": 178.31,
+            "nb": 13
+        },
+        "Ryzen 5 5600X": {
+            "min": 90,
+            "max": 150,
+            "mediane": 120,
+            "moyenne": 121.67,
+            "nb": 9
+        },
+        "Ryzen 5 5600": {
+            "min": 125,
+            "max": 150,
+            "mediane": 130,
+            "moyenne": 135,
+            "nb": 3
+        },
+        "Ryzen 5 5500": {
+            "min": 50,
+            "max": 120,
+            "mediane": 70,
+            "moyenne": 74.44,
+            "nb": 9
         }
     },
     "gpu": {
@@ -232,6 +400,351 @@
             "mediane": 250,
             "moyenne": 250,
             "nb": 23
+        },
+        "RTX 3060 Ti": {
+            "min": 170,
+            "max": 260,
+            "mediane": 200.0,
+            "moyenne": 209.06,
+            "nb": 16
+        },
+        "RTX 3060": {
+            "min": 200,
+            "max": 300,
+            "mediane": 205.0,
+            "moyenne": 224.17,
+            "nb": 12
+        },
+        "RTX 3050": {
+            "min": 115,
+            "max": 200,
+            "mediane": 150,
+            "moyenne": 154.19,
+            "nb": 21
+        },
+        "RTX 2080 Ti": {
+            "min": 210,
+            "max": 310,
+            "mediane": 250,
+            "moyenne": 257.14,
+            "nb": 7
+        },
+        "RTX 2080 Super": {
+            "min": 170,
+            "max": 259,
+            "mediane": 220,
+            "moyenne": 217.57,
+            "nb": 23
+        },
+        "RTX 2080": {
+            "min": 170,
+            "max": 290,
+            "mediane": 205.0,
+            "moyenne": 217,
+            "nb": 20
+        },
+        "RTX 2070 Super": {
+            "min": 110,
+            "max": 250,
+            "mediane": 160,
+            "moyenne": 171.05,
+            "nb": 21
+        },
+        "RTX 2070": {
+            "min": 110,
+            "max": 200,
+            "mediane": 150,
+            "moyenne": 157.18,
+            "nb": 17
+        },
+        "RTX 2060 Super": {
+            "min": 110,
+            "max": 200,
+            "mediane": 160,
+            "moyenne": 164.35,
+            "nb": 17
+        },
+        "RTX 2060": {
+            "min": 100,
+            "max": 180,
+            "mediane": 140.0,
+            "moyenne": 140.86,
+            "nb": 22
+        },
+        "GTX 1660 Ti": {
+            "min": 80,
+            "max": 125,
+            "mediane": 90,
+            "moyenne": 95,
+            "nb": 13
+        },
+        "GTX 1660 Super": {
+            "min": 75,
+            "max": 130,
+            "mediane": 99.0,
+            "moyenne": 96.05,
+            "nb": 22
+        },
+        "GTX 1660": {
+            "min": 75,
+            "max": 120,
+            "mediane": 94.0,
+            "moyenne": 93.6,
+            "nb": 20
+        },
+        "GTX 1650 Super": {
+            "min": 50,
+            "max": 130,
+            "mediane": 75.0,
+            "moyenne": 87,
+            "nb": 16
+        },
+        "GTX 1650": {
+            "min": 45,
+            "max": 120,
+            "mediane": 80,
+            "moyenne": 79.21,
+            "nb": 19
+        },
+        "GTX 1080 Ti": {
+            "min": 150,
+            "max": 250,
+            "mediane": 170,
+            "moyenne": 178.67,
+            "nb": 15
+        },
+        "GTX 1080": {
+            "min": 50,
+            "max": 200,
+            "mediane": 110,
+            "moyenne": 118.57,
+            "nb": 21
+        },
+        "GTX 1070 Ti": {
+            "min": 75,
+            "max": 150,
+            "mediane": 109.0,
+            "moyenne": 109.28,
+            "nb": 18
+        },
+        "GTX 1070": {
+            "min": 65,
+            "max": 120,
+            "mediane": 92.5,
+            "moyenne": 93.33,
+            "nb": 24
+        },
+        "GTX 1060 6GB": {
+            "min": 50,
+            "max": 90,
+            "mediane": 67.0,
+            "moyenne": 67.85,
+            "nb": 20
+        },
+        "GTX 1060 3GB": {
+            "min": 30,
+            "max": 80,
+            "mediane": 50,
+            "moyenne": 50.88,
+            "nb": 17
+        },
+        "GTX 1050 Ti": {
+            "min": 40,
+            "max": 100,
+            "mediane": 55,
+            "moyenne": 58.26,
+            "nb": 23
+        },
+        "GTX 1050": {
+            "min": 20,
+            "max": 90,
+            "mediane": 47.5,
+            "moyenne": 49.38,
+            "nb": 24
+        },
+        "RX 9070 XT": {
+            "min": 600,
+            "max": 700,
+            "mediane": 650,
+            "moyenne": 649.91,
+            "nb": 11
+        },
+        "RX 9070": {
+            "min": 450,
+            "max": 700,
+            "mediane": 610.0,
+            "moyenne": 591.06,
+            "nb": 18
+        },
+        "RX 9060 XT": {
+            "min": 350,
+            "max": 450,
+            "mediane": 400.0,
+            "moyenne": 402.5,
+            "nb": 16
+        },
+        "RX 7900 XTX": {
+            "min": 600,
+            "max": 1000,
+            "mediane": 835.0,
+            "moyenne": 844.9,
+            "nb": 10
+        },
+        "RX 7900 XT": {
+            "min": 450,
+            "max": 849,
+            "mediane": 630,
+            "moyenne": 650.44,
+            "nb": 9
+        },
+        "RX 7800 XT": {
+            "min": 380,
+            "max": 550,
+            "mediane": 440,
+            "moyenne": 446.15,
+            "nb": 13
+        },
+        "RX 7700 XT": {
+            "min": 205,
+            "max": 490,
+            "mediane": 350,
+            "moyenne": 348.82,
+            "nb": 17
+        },
+        "RX 7600 XT": {
+            "min": 140,
+            "max": 499,
+            "mediane": 380,
+            "moyenne": 336.56,
+            "nb": 9
+        },
+        "RX 7600": {
+            "min": 150,
+            "max": 250,
+            "mediane": 200.0,
+            "moyenne": 213.75,
+            "nb": 16
+        },
+        "RX 6800 XT": {
+            "min": 320,
+            "max": 500,
+            "mediane": 390,
+            "moyenne": 401.93,
+            "nb": 15
+        },
+        "RX 6800": {
+            "min": 270,
+            "max": 400,
+            "mediane": 325,
+            "moyenne": 333.08,
+            "nb": 13
+        },
+        "RX 6700 XT": {
+            "min": 230,
+            "max": 420,
+            "mediane": 280,
+            "moyenne": 296.27,
+            "nb": 15
+        },
+        "RX 6650 XT": {
+            "min": 150,
+            "max": 412,
+            "mediane": 220,
+            "moyenne": 246.59,
+            "nb": 17
+        },
+        "RX 6600 XT": {
+            "min": 120,
+            "max": 250,
+            "mediane": 200.0,
+            "moyenne": 196.83,
+            "nb": 18
+        },
+        "RX 6600": {
+            "min": 130,
+            "max": 250,
+            "mediane": 180,
+            "moyenne": 179.88,
+            "nb": 17
+        },
+        "RX 6500 XT": {
+            "min": 70,
+            "max": 150,
+            "mediane": 100,
+            "moyenne": 101.43,
+            "nb": 21
+        },
+        "RX 5700 XT": {
+            "min": 100,
+            "max": 210,
+            "mediane": 154.5,
+            "moyenne": 154.5,
+            "nb": 14
+        },
+        "RX 5600 XT": {
+            "min": 70,
+            "max": 140,
+            "mediane": 100.0,
+            "moyenne": 102.4,
+            "nb": 10
+        },
+        "RX 5500 XT": {
+            "min": 40,
+            "max": 150,
+            "mediane": 100,
+            "moyenne": 100.18,
+            "nb": 17
+        },
+        "Arc B580": {
+            "min": 280,
+            "max": 300,
+            "mediane": 290,
+            "moyenne": 290,
+            "nb": 3
+        },
+        "Arc B570": {
+            "min": 210,
+            "max": 210,
+            "mediane": 210,
+            "moyenne": 210,
+            "nb": 1
+        },
+        "Arc A770": {
+            "min": 200,
+            "max": 320,
+            "mediane": 237.5,
+            "moyenne": 249.17,
+            "nb": 6
+        },
+        "Arc A750": {
+            "min": 130,
+            "max": 160,
+            "mediane": 140,
+            "moyenne": 143.33,
+            "nb": 3
+        }
+    },
+    "ram": {
+        "8GB DDR4": {
+            "min": 12,
+            "max": 80,
+            "mediane": 35.0,
+            "moyenne": 40.85,
+            "nb": 20
+        },
+        "16GB DDR4": {
+            "min": 40,
+            "max": 100,
+            "mediane": 70,
+            "moyenne": 65.82,
+            "nb": 17
+        },
+        "32GB DDR4": {
+            "min": 50,
+            "max": 200,
+            "mediane": 150.0,
+            "moyenne": 154.94,
+            "nb": 18
         }
     }
 }

@@ -2,9 +2,10 @@ from groq import Groq
 import json
 from dotenv import load_dotenv
 import os
-# Pour extraire j'utilise groq, l'api est gratuite pour mon usage. 
-# Fonctionnement : 
-  # Récupération description lbc -> envoie à Groq -> renvoie les composants au format json parmis une liste pré-selectionnée-> analyse et comparaison possible parmis ma base de donnée
+import json_fun
+# Pour extraire j'utilise groq, l'api est gratuite pour mon usage.
+# Fonctionnement :
+# Récupération description lbc -> envoie à Groq -> renvoie les composants au format json parmis une liste pré-selectionnée-> analyse et comparaison possible parmis ma base de donnée
 
 load_dotenv()
 
@@ -71,22 +72,34 @@ FORMAT DE SORTIE (JSON strict, sans texte autour) :
 """
 
 
-
-
-def extraire_composants(annonce: str) -> dict:
+def extraire_composants(body: str) -> dict:
+    """Renvoie la liste des composants normalisées de annonce sous la forme
+        {
+      "cpu": "...",
+      "gpu": "...",
+      "ram": "...",
+      "stockage SSD": "...",
+      "stockage HDD": "...",
+      "alimentation_w": ...,
+      "prix": ...,
+      "etat": "...",
+      "opportunite": "...",
+      "interet_sur_10": ...,
+      "raison": "..."
+    }"""
     completion = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
-        messages=[
-            {"role": "system", "content": INSTRUCTIONS},
-            {"role": "user", "content": annonce}
-        ],
+        messages=[{"role": "system", "content": INSTRUCTIONS}, {"role": "user", "content": body}],
         response_format={"type": "json_object"},
     )
     return json.loads(completion.choices[0].message.content)
 
 
-annonce = """
-Vends PC gamer, i5 12400f, carte graphique 3060 ti, 16go ram ddr4, 
-ssd 500go + hdd 1to, alim 650w corsair, tres bon etat, 650 euros
-"""
+def get_comp_price(classe, comp):
+    """Renvoie le prix du composant 'comp' si il est dans la base de données, sinon renvoie -1"""
+    data = json_fun.read_json("prix_marche.json")
 
+    if comp not in data[classe]:
+        return -1
+    else:
+        return data[classe][comp]
