@@ -22,7 +22,7 @@ def main():
     scrapped_annonces = json_fun.read_json("scraped_annonce.json")
 
     # Visite des annonces non vues pour la recherche 'PC'
-    liste_annonce_PC, scrapped_annonces = scraper_annonce.get_liste_annonce("PC", scrapped_annonces)
+    liste_annonce_PC, scrapped_annonces = scraper_annonce.get_liste_annonce("PC gamer", scrapped_annonces)
 
     liste_pc = []
 
@@ -31,10 +31,11 @@ def main():
     i = 0
     for a in liste_annonce_PC:
         i += 1
-        print(a)
-        print(a.body)
+        if i == 5:
+            break
+        composants = analyse.extraire_composants(a.body, a.price)
+        print("\n----- composant : ", composants)
 
-        composants = analyse.extraire_composants(a.body)
         liste_pc.append(
             ordinateur.Ordinateur(
                 composants["cpu"],
@@ -46,15 +47,14 @@ def main():
                 composants["opportunite"],
                 analyse.get_comp_price("cpu", composants["cpu"]),
                 analyse.get_comp_price("gpu", composants["gpu"]),
-                # analyse.get_comp_price("stockage", composants["stockage SSD"]),
-                # analyse.get_comp_price("stockage", composants["stockage HDD"]),
-                # analyse.get_comp_price("ram", composants["ram"]),
+                analyse.get_comp_price("stockage", composants["stockage SSD"]),
+                analyse.get_comp_price("stockage", composants["stockage HDD"]),
+                analyse.get_comp_price("ram", composants["ram"]),
             )
         )
-        if i == 5:
-            break
 
     for pc in liste_pc:
+        pc.calculer_prix_revente_arrange()
         pc.printPC()
 
     # La prochaine étape est de les comparer au prix du marché

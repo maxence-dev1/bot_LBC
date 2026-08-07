@@ -726,25 +726,125 @@
     },
     "ram": {
         "8GB DDR4": {
-            "min": 12,
+            "min": 18,
             "max": 80,
-            "mediane": 35.0,
-            "moyenne": 40.85,
-            "nb": 20
+            "mediane": 35,
+            "moyenne": 39.26,
+            "nb": 23
         },
         "16GB DDR4": {
             "min": 40,
-            "max": 100,
-            "mediane": 70,
-            "moyenne": 65.82,
-            "nb": 17
+            "max": 90,
+            "mediane": 70.0,
+            "moyenne": 67.5,
+            "nb": 18
         },
         "32GB DDR4": {
-            "min": 50,
+            "min": 75,
             "max": 200,
             "mediane": 150.0,
-            "moyenne": 154.94,
-            "nb": 18
+            "moyenne": 149.17,
+            "nb": 24
+        },
+        "64GB DDR4": {
+            "min": 150,
+            "max": 500,
+            "mediane": 270.0,
+            "moyenne": 273.44,
+            "nb": 16
+        },
+        "16GB DDR5": {
+            "min": 80,
+            "max": 250,
+            "mediane": 160.0,
+            "moyenne": 157.86,
+            "nb": 22
+        },
+        "32GB DDR5": {
+            "min": 190,
+            "max": 600,
+            "mediane": 360,
+            "moyenne": 361.84,
+            "nb": 19
+        },
+        "64GB DDR5": {
+            "min": 369,
+            "max": 890,
+            "mediane": 639,
+            "moyenne": 637.54,
+            "nb": 13
+        },
+        "128GB DDR5": {
+            "min": 40,
+            "max": 1650,
+            "mediane": 1200.0,
+            "moyenne": 1022.5,
+            "nb": 4
+        }
+    },
+    "stockage": {
+        "256GB SSD": {
+            "min": 15,
+            "max": 45,
+            "mediane": 25.0,
+            "moyenne": 25.75,
+            "nb": 20
+        },
+        "500GB SSD": {
+            "min": 30,
+            "max": 100,
+            "mediane": 60.0,
+            "moyenne": 62.23,
+            "nb": 26
+        },
+        "1TB SSD": {
+            "min": 50,
+            "max": 170,
+            "mediane": 100,
+            "moyenne": 103.84,
+            "nb": 25
+        },
+        "2TB SSD": {
+            "min": 125,
+            "max": 499,
+            "mediane": 250,
+            "moyenne": 277.16,
+            "nb": 19
+        },
+        "4TB SSD": {
+            "min": 50,
+            "max": 500,
+            "mediane": 330,
+            "moyenne": 311.06,
+            "nb": 17
+        },
+        "500GB HDD": {
+            "min": 10,
+            "max": 16,
+            "mediane": 12.0,
+            "moyenne": 12.64,
+            "nb": 14
+        },
+        "1TB HDD": {
+            "min": 10,
+            "max": 55,
+            "mediane": 25.0,
+            "moyenne": 28.86,
+            "nb": 14
+        },
+        "2TB HDD": {
+            "min": 15,
+            "max": 70,
+            "mediane": 50.0,
+            "moyenne": 48.5,
+            "nb": 14
+        },
+        "4TB HDD": {
+            "min": 30,
+            "max": 200,
+            "mediane": 95,
+            "moyenne": 107.93,
+            "nb": 15
         }
     }
 }
