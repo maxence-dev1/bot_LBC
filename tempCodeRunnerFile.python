@@ -1,0 +1,44 @@
+import time
+import questionary
+from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
+
+def lancer_action(nom_action: str):
+    # Configuration d'une barre de progression Rich personnalisée
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(),
+        TaskProgressColumn(),
+    ) as progress:
+        
+        tache = progress.add_task(f"[cyan]{nom_action} en cours...", total=100)
+        
+        # Simulation du traitement
+        while not progress.finished:
+            time.sleep(0.03)
+            progress.update(tache, advance=2)
+            
+    print(f"\n[bold green]✓[/bold green] {nom_action} terminée avec succès !\n")
+
+def main():
+    while True:
+        # 1. Menu de sélection avec Questionary
+        choix = questionary.select(
+            "Que souhaitez-vous faire ?",
+            choices=[
+                "1. Analyser la base de données",
+                "2. Exporter les rapports",
+                "3. Nettoyer les fichiers temporaires",
+                "Quitter"
+            ]
+        ).ask()
+
+        if choix == "Quitter" or choix is None:
+            print("Au revoir !")
+            break
+
+        # 2. Exécution de la barre de chargement
+        lancer_action(choix)
+
+if __name__ == "__main__":
+    main()

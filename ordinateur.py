@@ -58,11 +58,12 @@ class Ordinateur:
         self.ssd_price = ssd_price
         self.hdd_price = hdd_price
         self.ram_price = ram_price
+        self.interessant = False
 
     def printPC(self):
         print("--------")
         print(
-            f"cpu : {self.cpu} : {self.cpu_price}\ngpu : {self.gpu} : {self.gpu_price}\nssd : {self.stockage_ssd} : {self.ssd_price}\nhdd : {self.stockage_hdd} : {self.hdd_price}\nram : {self.ram} : {self.ram_price}\nprix : {self.prix}\nopportunité : {self.opportunite} \nprix revente : {self.prix_revente} \nprix revente arrangé : {self.prix_revente_arrange}"
+            f"cpu : {self.cpu} : {self.cpu_price}\ngpu : {self.gpu} : {self.gpu_price}\nssd : {self.stockage_ssd} : {self.ssd_price}\nhdd : {self.stockage_hdd} : {self.hdd_price}\nram : {self.ram} : {self.ram_price}\nprix : {self.prix}\nopportunité : {self.opportunite} \nprix revente : {self.prix_revente} \nprix revente arrangé : {self.prix_revente_arrange} \ninteressant : {self.interessant}"
         )
 
     def caluler_prix_revente(self):
@@ -104,4 +105,7 @@ class Ordinateur:
             t: round(self.prix_revente[t] / (1 - self.poid_manquant), 2) for t in ["min", "max", "moyenne", "mediane"]
         }
 
-        return self.prix_revente_arrange
+        if self.prix_revente_arrange["mediane"] > self.prix:
+            self.opportunite = True
+
+        return self.opportunite, self.prix_revente_arrange

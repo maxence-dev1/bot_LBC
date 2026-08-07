@@ -64,7 +64,7 @@ FORMAT DE SORTIE (JSON strict, sans texte autour) :
 INSTRUCTIONS = construire_instructions()
 
 
-def extraire_composants(body, price):
+def extraire_composants(body, price, progress, tache):
     """Renvoie la liste des composants normalisées de annonce sous la forme
         {
       "cpu": "...",
@@ -83,6 +83,7 @@ def extraire_composants(body, price):
         messages=[{"role": "system", "content": INSTRUCTIONS}, {"role": "user", "content": body}],
         response_format={"type": "json_object"},
     )
+    progress.update(tache, advance=1)
     jsonf = json.loads(completion.choices[0].message.content)
     jsonf["prix"] = price
     return jsonf

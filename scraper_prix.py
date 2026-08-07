@@ -61,7 +61,7 @@ def exlure_annonce(titre):
 def get_list_comp(comp):
     """Récupère la liste des annonces des composants 'comp' et renvoie un string de la forme 'id Prix Body'"""
     list_comp = scraper.search_ads(comp)
-    print("Nombre annonce à traiter : ", len(list_comp), " pour : ", comp)
+    # print("Nombre annonce à traiter : ", len(list_comp), " pour : ", comp)
     return list_comp
 
 
@@ -176,23 +176,24 @@ def filtrer_comp_seuls(all_annonces):
     return result
 
 
-def calculer_moyenne(comp):
+def calculer_moyenne(comp, progress, tache):
     """Calcule la moyenne des annonces valides du composant 'comp'"""
     annonces = get_list_comp(comp)
     data = filtrer_comp_seuls(annonces)
     id_valides = {r["id"] for r in data if r["composant_seul"]}  # Les ID qui ont été marqué comme valide
 
-    print(
-        "\n--------------------------------\n\n".join(
-            f"{a['subject']} : {a['price']}" for a in annonces if a["list_id"] in id_valides
-        )
-    )
+    # print(
+    #     "\n--------------------------------\n\n".join(
+    #         f"{a['subject']} : {a['price']}" for a in annonces if a["list_id"] in id_valides
+    #     )
+    # )
     price_list = [a["price"][0] for a in annonces if a["list_id"] in id_valides]  # La liste des prix valides
     price_list_final = filtre_iqr(price_list)
     if not price_list_final:
         return {"min": None, "max": None, "mediane": None, "moyenne": None, "nb": 0}
 
     print("prix calculée pour : ", comp)
+    progress.update(tache, advance=1)
 
     # [min , max , moyenne , mediane]
     return {
@@ -204,17 +205,20 @@ def calculer_moyenne(comp):
     }
 
 
-def update_all_price():
+def update_all_price(progress, tache, tot, comp_to_scrap=["gpu", "cpu", "ram", "stockage"]):
     """Lance la mise à jour des prix actuels du marché de tous les composants de 'prix_composants.json'"""
+
+    print("lancement du scan pour : ", comp_to_scrap, " ", tot, " élément à scanner")
+
     data = json_fun.read_json("prix_composants.json")
     res = json_fun.read_json("prix_marche.json") if os.path.exists("prix_marche.json") else {}
 
-    for categorie in ["gpu", "cpu", "ram", "stockage"]:
+    for categorie in comp_to_scrap:
         res.setdefault(categorie, {})
 
         for comp in data[categorie]:
             try:
-                res[categorie][comp] = calculer_moyenne(comp)
+                res[categorie][comp] = calculer_moyenne(comp, progress, tache)
                 print(comp, "->", res[categorie][comp])
             except Exception as e:
                 print(f"✗ Erreur sur {comp}, ignoré : {e}")

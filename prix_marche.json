@@ -241,53 +241,53 @@
     },
     "gpu": {
         "RTX 5090": {
-            "min": 600,
-            "max": 3800,
-            "mediane": 2550.0,
-            "moyenne": 2741.58,
-            "nb": 12
+            "min": 2350,
+            "max": 4400,
+            "mediane": 3595.0,
+            "moyenne": 3479.25,
+            "nb": 16
         },
         "RTX 5080": {
-            "min": 900,
+            "min": 1050,
             "max": 1500,
-            "mediane": 1150,
-            "moyenne": 1166.53,
-            "nb": 15
+            "mediane": 1214.5,
+            "moyenne": 1237.9,
+            "nb": 10
         },
         "RTX 5070 Ti": {
-            "min": 600,
-            "max": 1000,
-            "mediane": 850,
-            "moyenne": 846.92,
+            "min": 770,
+            "max": 1390,
+            "mediane": 950,
+            "moyenne": 976.85,
             "nb": 13
         },
         "RTX 5070": {
-            "min": 520,
-            "max": 1000,
-            "mediane": 630.0,
-            "moyenne": 676.56,
+            "min": 550,
+            "max": 950,
+            "mediane": 650.0,
+            "moyenne": 694.89,
             "nb": 18
         },
         "RTX 5060 Ti 16GB": {
-            "min": 490,
-            "max": 600,
-            "mediane": 560,
-            "moyenne": 563.45,
-            "nb": 11
+            "min": 450,
+            "max": 650,
+            "mediane": 564.5,
+            "moyenne": 558.5,
+            "nb": 8
         },
         "RTX 5060 Ti 8GB": {
-            "min": 350,
-            "max": 450,
-            "mediane": 365.0,
-            "moyenne": 380,
-            "nb": 6
+            "min": 320,
+            "max": 425,
+            "mediane": 380,
+            "moyenne": 371.27,
+            "nb": 11
         },
         "RTX 5060": {
-            "min": 260,
-            "max": 600,
-            "mediane": 350,
-            "moyenne": 371.42,
-            "nb": 19
+            "min": 250,
+            "max": 490,
+            "mediane": 350.0,
+            "moyenne": 347.22,
+            "nb": 18
         },
         "RTX 5050": {
             "min": 180,
@@ -726,60 +726,60 @@
     },
     "ram": {
         "8GB DDR4": {
-            "min": 18,
-            "max": 80,
-            "mediane": 35,
-            "moyenne": 39.26,
-            "nb": 23
+            "min": 20,
+            "max": 50,
+            "mediane": 30.0,
+            "moyenne": 32.14,
+            "nb": 14
         },
         "16GB DDR4": {
-            "min": 40,
-            "max": 90,
+            "min": 25,
+            "max": 100,
             "mediane": 70.0,
-            "moyenne": 67.5,
-            "nb": 18
-        },
-        "32GB DDR4": {
-            "min": 75,
-            "max": 200,
-            "mediane": 150.0,
-            "moyenne": 149.17,
-            "nb": 24
-        },
-        "64GB DDR4": {
-            "min": 150,
-            "max": 500,
-            "mediane": 270.0,
-            "moyenne": 273.44,
-            "nb": 16
-        },
-        "16GB DDR5": {
-            "min": 80,
-            "max": 250,
-            "mediane": 160.0,
-            "moyenne": 157.86,
+            "moyenne": 64.5,
             "nb": 22
         },
-        "32GB DDR5": {
-            "min": 190,
-            "max": 600,
-            "mediane": 360,
-            "moyenne": 361.84,
+        "32GB DDR4": {
+            "min": 70,
+            "max": 290,
+            "mediane": 150,
+            "moyenne": 149.76,
+            "nb": 21
+        },
+        "64GB DDR4": {
+            "min": 160,
+            "max": 500,
+            "mediane": 300,
+            "moyenne": 298.82,
+            "nb": 17
+        },
+        "16GB DDR5": {
+            "min": 95,
+            "max": 220,
+            "mediane": 160,
+            "moyenne": 160.42,
             "nb": 19
         },
+        "32GB DDR5": {
+            "min": 200,
+            "max": 500,
+            "mediane": 350.0,
+            "moyenne": 350.69,
+            "nb": 16
+        },
         "64GB DDR5": {
-            "min": 369,
-            "max": 890,
-            "mediane": 639,
-            "moyenne": 637.54,
-            "nb": 13
+            "min": 260,
+            "max": 1000,
+            "mediane": 640.0,
+            "moyenne": 648.83,
+            "nb": 18
         },
         "128GB DDR5": {
-            "min": 40,
-            "max": 1650,
-            "mediane": 1200.0,
-            "moyenne": 1022.5,
-            "nb": 4
+            "min": 235,
+            "max": 2000,
+            "mediane": 1250.0,
+            "moyenne": 1197.5,
+            "nb": 6
         }
     },
     "stockage": {
