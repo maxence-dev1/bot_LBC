@@ -1,44 +1,14 @@
-import time
-import questionary
-from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
+import asyncio
+from telegram import Bot
+from dotenv import load_dotenv
+import os
 
-def lancer_action(nom_action: str):
-    # Configuration d'une barre de progression Rich personnalisée
-    with Progress(
-        SpinnerColumn(),
-        TextColumn("[progress.description]{task.description}"),
-        BarColumn(),
-        TaskProgressColumn(),
-    ) as progress:
-        
-        tache = progress.add_task(f"[cyan]{nom_action} en cours...", total=100)
-        
-        # Simulation du traitement
-        while not progress.finished:
-            time.sleep(0.03)
-            progress.update(tache, advance=2)
-            
-    print(f"\n[bold green]✓[/bold green] {nom_action} terminée avec succès !\n")
+load_dotenv()
+TOKEN = os.environ["API_TELEGRAM"]
+CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
-def main():
-    while True:
-        # 1. Menu de sélection avec Questionary
-        choix = questionary.select(
-            "Que souhaitez-vous faire ?",
-            choices=[
-                "1. Analyser la base de données",
-                "2. Exporter les rapports",
-                "3. Nettoyer les fichiers temporaires",
-                "Quitter"
-            ]
-        ).ask()
+async def envoyer_message(texte: str):
+    bot = Bot(token=TOKEN)
+    await bot.send_message(chat_id=CHAT_ID, text=texte)
 
-        if choix == "Quitter" or choix is None:
-            print("Au revoir !")
-            break
-
-        # 2. Exécution de la barre de chargement
-        lancer_action(choix)
-
-if __name__ == "__main__":
-    main()
+asyncio.run(envoyer_message("Test depuis mon bot LBC 🖥️"))

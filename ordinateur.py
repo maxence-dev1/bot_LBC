@@ -105,7 +105,8 @@ class Ordinateur:
             t: round(self.prix_revente[t] / (1 - self.poid_manquant), 2) for t in ["min", "max", "moyenne", "mediane"]
         }
 
-        if self.prix_revente_arrange["mediane"] > self.prix:
-            self.opportunite = True
+        if self.prix_revente_arrange["mediane"] > self.prix[0]:
+            print("mediane : ", self.prix_revente_arrange["mediane"], " prix : ", self.prix[0])
+            self.interessant = True
 
-        return self.opportunite, self.prix_revente_arrange
+        return self.interessant, self.prix_revente_arrange

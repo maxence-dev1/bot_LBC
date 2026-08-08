@@ -8,6 +8,7 @@ import time
 import questionary
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
 from rich.console import Console
+import bot_telegram
 
 # Fonctionnement global
 # Régulièrement 1 fois toute les 2h par exemple, une session de scrapping se lance :
@@ -60,34 +61,30 @@ def lancer_scrap_PC(recherche):
     for a in liste_annonce_PC:
         composants = analyse.extraire_composants(a.body, a.price, progress, tache)
 
-        liste_pc.append(
-            ordinateur.Ordinateur(
-                composants["cpu"],
-                composants["gpu"],
-                composants["stockage SSD"],
-                composants["stockage HDD"],
-                composants["ram"],
-                composants["prix"],
-                composants["opportunite"],
-                analyse.get_comp_price("cpu", composants["cpu"]),
-                analyse.get_comp_price("gpu", composants["gpu"]),
-                analyse.get_comp_price("stockage", composants["stockage SSD"]),
-                analyse.get_comp_price("stockage", composants["stockage HDD"]),
-                analyse.get_comp_price("ram", composants["ram"]),
-            )
+        pc = ordinateur.Ordinateur(
+            composants["cpu"],
+            composants["gpu"],
+            composants["stockage SSD"],
+            composants["stockage HDD"],
+            composants["ram"],
+            composants["prix"],
+            composants["opportunite"],
+            analyse.get_comp_price("cpu", composants["cpu"]),
+            analyse.get_comp_price("gpu", composants["gpu"]),
+            analyse.get_comp_price("stockage", composants["stockage SSD"]),
+            analyse.get_comp_price("stockage", composants["stockage HDD"]),
+            analyse.get_comp_price("ram", composants["ram"]),
         )
 
-    liste_pc_interessants = []
-    for pc in liste_pc:
+        liste_pc.append(pc)
         inte, prix = pc.calculer_prix_revente_arrange()
-
-        pc.printPC()
-
+        print(inte)
         if inte:
-            liste_pc_interessants.append(pc)
+            liste_pc.append(pc)
+            bot_telegram.envoyer_message(pc, a)
 
     print("liste des pc interessants : ")
-    for pc in liste_pc_interessants:
+    for pc in liste_pc:
         pc.PrintPC()
 
     json_fun.save_json(scrapped_annonces, "scraped_annonce.json")
@@ -119,6 +116,9 @@ def main():
         if choix == "2. Lancer un Scrapping":
             recherche = input("Sur quelle recherche voulez vous scrapper ?")
             lancer_scrap_PC(recherche)
+
+        if choix == "3. Nettoyer les annonces déjà vues":
+            json_fun.save_json([], "scraped_annonce.json")
 
 
 main()
