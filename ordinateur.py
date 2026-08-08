@@ -51,7 +51,7 @@ class Ordinateur:
         self.stockage_ssd = stockage_ssd
         self.stockage_hdd = stockage_hdd
         self.ram = ram
-        self.prix = prix
+        self.prix = prix[0]
         self.opportunite = opportunite
         self.cpu_price = cpu_price
         self.gpu_price = gpu_price
@@ -105,8 +105,7 @@ class Ordinateur:
             t: round(self.prix_revente[t] / (1 - self.poid_manquant), 2) for t in ["min", "max", "moyenne", "mediane"]
         }
 
-        if self.prix_revente_arrange["mediane"] > self.prix[0]:
-            print("mediane : ", self.prix_revente_arrange["mediane"], " prix : ", self.prix[0])
+        if self.prix_revente_arrange["mediane"] > self.prix:
             self.interessant = True
 
         return self.interessant, self.prix_revente_arrange
