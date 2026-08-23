@@ -96,8 +96,9 @@ def get_comp_price(classe, comp):
     data = json_fun.read_json("prix_marche.json")
 
     if comp not in data[classe]:
-        print(f"composant inconnu : {comp}, ajouté à la base de connaissances")
-        json_fun.add_comp_to_json("prix_composants.json", comp, classe)
+        if comp is not None:
+            print(f"composant inconnu : {comp[8:]}, ajouté à la base de connaissances")
+            json_fun.add_comp_to_json("prix_composants.json", comp[8:], classe)
         return -1
     else:
         return data[classe][comp]

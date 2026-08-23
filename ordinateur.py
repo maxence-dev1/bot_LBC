@@ -59,6 +59,7 @@ class Ordinateur:
         self.hdd_price = hdd_price
         self.ram_price = ram_price
         self.interessant = False
+        self.confiance = 1
 
     def printPC(self):
         print("--------")
@@ -96,6 +97,7 @@ class Ordinateur:
         ):
             if prix == -1:
                 self.poid_manquant += POIDS[comp]
+                self.confiance -= 0.1
 
         for p in ["CM", "alim", "boitier"]:
             self.poid_manquant += POIDS[p]

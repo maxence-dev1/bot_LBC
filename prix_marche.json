@@ -374,144 +374,144 @@
             "nb": 20
         },
         "RTX 3080 Ti": {
-            "min": 330,
-            "max": 490,
-            "mediane": 435.0,
-            "moyenne": 426.61,
-            "nb": 18
+            "min": 400,
+            "max": 545,
+            "mediane": 450,
+            "moyenne": 461.48,
+            "nb": 23
         },
         "RTX 3080": {
             "min": 300,
-            "max": 480,
-            "mediane": 330.0,
-            "moyenne": 359.94,
-            "nb": 18
+            "max": 499,
+            "mediane": 394.5,
+            "moyenne": 400.93,
+            "nb": 28
         },
         "RTX 3070 Ti": {
             "min": 250,
-            "max": 350,
-            "mediane": 292.5,
-            "moyenne": 295,
-            "nb": 20
+            "max": 450,
+            "mediane": 330,
+            "moyenne": 323.11,
+            "nb": 27
         },
         "RTX 3070": {
-            "min": 190,
-            "max": 300,
-            "mediane": 250,
-            "moyenne": 250,
-            "nb": 23
+            "min": 210,
+            "max": 350,
+            "mediane": 260,
+            "moyenne": 265,
+            "nb": 25
         },
         "RTX 3060 Ti": {
-            "min": 170,
-            "max": 260,
-            "mediane": 200.0,
-            "moyenne": 209.06,
-            "nb": 16
-        },
-        "RTX 3060": {
             "min": 200,
             "max": 300,
-            "mediane": 205.0,
-            "moyenne": 224.17,
-            "nb": 12
-        },
-        "RTX 3050": {
-            "min": 115,
-            "max": 200,
-            "mediane": 150,
-            "moyenne": 154.19,
-            "nb": 21
-        },
-        "RTX 2080 Ti": {
-            "min": 210,
-            "max": 310,
-            "mediane": 250,
-            "moyenne": 257.14,
-            "nb": 7
-        },
-        "RTX 2080 Super": {
-            "min": 170,
-            "max": 259,
             "mediane": 220,
-            "moyenne": 217.57,
+            "moyenne": 231.7,
             "nb": 23
         },
-        "RTX 2080": {
-            "min": 170,
-            "max": 290,
-            "mediane": 205.0,
-            "moyenne": 217,
+        "RTX 3060": {
+            "min": 195,
+            "max": 280,
+            "mediane": 230,
+            "moyenne": 232.63,
+            "nb": 19
+        },
+        "RTX 3050": {
+            "min": 120,
+            "max": 300,
+            "mediane": 180.0,
+            "moyenne": 182.27,
+            "nb": 30
+        },
+        "RTX 2080 Ti": {
+            "min": 220,
+            "max": 350,
+            "mediane": 290.0,
+            "moyenne": 283.21,
+            "nb": 14
+        },
+        "RTX 2080 Super": {
+            "min": 190,
+            "max": 260,
+            "mediane": 230.0,
+            "moyenne": 227.9,
             "nb": 20
         },
+        "RTX 2080": {
+            "min": 180,
+            "max": 300,
+            "mediane": 217.5,
+            "moyenne": 225.17,
+            "nb": 24
+        },
         "RTX 2070 Super": {
-            "min": 110,
-            "max": 250,
-            "mediane": 160,
-            "moyenne": 171.05,
-            "nb": 21
+            "min": 150,
+            "max": 270,
+            "mediane": 200,
+            "moyenne": 202.8,
+            "nb": 25
         },
         "RTX 2070": {
-            "min": 110,
-            "max": 200,
-            "mediane": 150,
-            "moyenne": 157.18,
-            "nb": 17
+            "min": 150,
+            "max": 250,
+            "mediane": 190,
+            "moyenne": 193.24,
+            "nb": 29
         },
         "RTX 2060 Super": {
-            "min": 110,
-            "max": 200,
-            "mediane": 160,
-            "moyenne": 164.35,
-            "nb": 17
+            "min": 145,
+            "max": 220,
+            "mediane": 160.0,
+            "moyenne": 167.44,
+            "nb": 16
         },
         "RTX 2060": {
             "min": 100,
             "max": 180,
-            "mediane": 140.0,
-            "moyenne": 140.86,
-            "nb": 22
+            "mediane": 140,
+            "moyenne": 140.71,
+            "nb": 21
         },
         "GTX 1660 Ti": {
             "min": 80,
-            "max": 125,
-            "mediane": 90,
-            "moyenne": 95,
-            "nb": 13
+            "max": 150,
+            "mediane": 110.0,
+            "moyenne": 111.75,
+            "nb": 20
         },
         "GTX 1660 Super": {
             "min": 75,
-            "max": 130,
-            "mediane": 99.0,
-            "moyenne": 96.05,
-            "nb": 22
+            "max": 150,
+            "mediane": 110.0,
+            "moyenne": 114.11,
+            "nb": 28
         },
         "GTX 1660": {
-            "min": 75,
-            "max": 120,
-            "mediane": 94.0,
-            "moyenne": 93.6,
-            "nb": 20
+            "min": 40,
+            "max": 150,
+            "mediane": 100.0,
+            "moyenne": 99.69,
+            "nb": 32
         },
         "GTX 1650 Super": {
             "min": 50,
             "max": 130,
             "mediane": 75.0,
-            "moyenne": 87,
+            "moyenne": 84.06,
             "nb": 16
         },
         "GTX 1650": {
-            "min": 45,
-            "max": 120,
-            "mediane": 80,
-            "moyenne": 79.21,
-            "nb": 19
+            "min": 60,
+            "max": 125,
+            "mediane": 77.5,
+            "moyenne": 79.4,
+            "nb": 30
         },
         "GTX 1080 Ti": {
-            "min": 150,
+            "min": 160,
             "max": 250,
-            "mediane": 170,
-            "moyenne": 178.67,
-            "nb": 15
+            "mediane": 200,
+            "moyenne": 201,
+            "nb": 9
         },
         "GTX 1080": {
             "min": 50,

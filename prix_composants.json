@@ -70,7 +70,8 @@
         "Arc B580",
         "Arc B570",
         "Arc A770",
-        "Arc A750"
+        "Arc A750",
+        "Intel UHD Graphics"
     ],
     "cpu": [
         "Core Ultra 9 285K",
@@ -107,7 +108,8 @@
         "Ryzen 7 5800X",
         "Ryzen 5 5600X",
         "Ryzen 5 5600",
-        "Ryzen 5 5500"
+        "Ryzen 5 5500",
+        "Intel Core i3 10ème génération"
     ],
     "ram": [
         "8GB DDR4",
