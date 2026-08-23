@@ -51,7 +51,7 @@ class Ordinateur:
         self.stockage_ssd = stockage_ssd
         self.stockage_hdd = stockage_hdd
         self.ram = ram
-        self.prix = prix[0]
+        self.prix = prix
         self.opportunite = opportunite
         self.cpu_price = cpu_price
         self.gpu_price = gpu_price
@@ -97,9 +97,12 @@ class Ordinateur:
             if prix == -1:
                 self.poid_manquant += POIDS[comp]
 
+        for p in ["CM", "alim", "boitier"]:
+            self.poid_manquant += POIDS[p]
+
         if (1 - self.poid_manquant) <= 0:
             self.prix_revente_arrange = {t: None for t in ["min", "max", "moyenne", "mediane"]}
-            return self.prix_revente_arrange
+            return self.interessant, self.prix_revente_arrange
 
         self.prix_revente_arrange = {
             t: round(self.prix_revente[t] / (1 - self.poid_manquant), 2) for t in ["min", "max", "moyenne", "mediane"]
@@ -108,4 +111,5 @@ class Ordinateur:
         if self.prix_revente_arrange["mediane"] > self.prix:
             self.interessant = True
 
+        print(self.interessant, self.prix_revente_arrange)
         return self.interessant, self.prix_revente_arrange

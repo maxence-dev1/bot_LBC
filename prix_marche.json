@@ -241,137 +241,137 @@
     },
     "gpu": {
         "RTX 5090": {
-            "min": 2350,
-            "max": 4400,
-            "mediane": 3595.0,
-            "moyenne": 3479.25,
-            "nb": 16
+            "min": 2000,
+            "max": 6200,
+            "mediane": 3500,
+            "moyenne": 3451.16,
+            "nb": 25
         },
         "RTX 5080": {
-            "min": 1050,
-            "max": 1500,
-            "mediane": 1214.5,
-            "moyenne": 1237.9,
-            "nb": 10
+            "min": 1100,
+            "max": 1650,
+            "mediane": 1300.0,
+            "moyenne": 1316.8,
+            "nb": 20
         },
         "RTX 5070 Ti": {
-            "min": 770,
-            "max": 1390,
+            "min": 850,
+            "max": 1050,
             "mediane": 950,
-            "moyenne": 976.85,
-            "nb": 13
+            "moyenne": 944.93,
+            "nb": 15
         },
         "RTX 5070": {
             "min": 550,
-            "max": 950,
-            "mediane": 650.0,
-            "moyenne": 694.89,
-            "nb": 18
+            "max": 1100,
+            "mediane": 735.0,
+            "moyenne": 777.04,
+            "nb": 24
         },
         "RTX 5060 Ti 16GB": {
-            "min": 450,
-            "max": 650,
-            "mediane": 564.5,
-            "moyenne": 558.5,
-            "nb": 8
+            "min": 520,
+            "max": 800,
+            "mediane": 600,
+            "moyenne": 611.73,
+            "nb": 11
         },
         "RTX 5060 Ti 8GB": {
-            "min": 320,
-            "max": 425,
-            "mediane": 380,
-            "moyenne": 371.27,
-            "nb": 11
+            "min": 350,
+            "max": 470,
+            "mediane": 400,
+            "moyenne": 403.57,
+            "nb": 7
         },
         "RTX 5060": {
             "min": 250,
-            "max": 490,
-            "mediane": 350.0,
-            "moyenne": 347.22,
-            "nb": 18
+            "max": 600,
+            "mediane": 340,
+            "moyenne": 387.29,
+            "nb": 21
         },
         "RTX 5050": {
-            "min": 180,
+            "min": 40,
             "max": 360,
-            "mediane": 260,
-            "moyenne": 265.56,
-            "nb": 9
+            "mediane": 275.0,
+            "moyenne": 254.93,
+            "nb": 14
         },
         "RTX 4090": {
-            "min": 1800,
-            "max": 2400,
-            "mediane": 2125.0,
-            "moyenne": 2093.62,
-            "nb": 8
+            "min": 950,
+            "max": 2700,
+            "mediane": 2100,
+            "moyenne": 2020.47,
+            "nb": 17
         },
         "RTX 4080 Super": {
             "min": 640,
-            "max": 1300,
-            "mediane": 895.0,
-            "moyenne": 900.8,
-            "nb": 10
-        },
-        "RTX 4080": {
-            "min": 780,
-            "max": 1100,
-            "mediane": 885.0,
-            "moyenne": 900.67,
+            "max": 1249,
+            "mediane": 924.5,
+            "moyenne": 950.25,
             "nb": 12
         },
+        "RTX 4080": {
+            "min": 700,
+            "max": 1200,
+            "mediane": 925.0,
+            "moyenne": 928.93,
+            "nb": 14
+        },
         "RTX 4070 Ti Super": {
-            "min": 450,
-            "max": 840,
-            "mediane": 500,
-            "moyenne": 594.14,
-            "nb": 7
+            "min": 235,
+            "max": 1000,
+            "mediane": 775.0,
+            "moyenne": 657.5,
+            "nb": 10
         },
         "RTX 4070 Ti": {
-            "min": 450,
-            "max": 700,
-            "mediane": 600,
-            "moyenne": 590.38,
-            "nb": 13
+            "min": 550,
+            "max": 900,
+            "mediane": 650,
+            "moyenne": 676.67,
+            "nb": 21
         },
         "RTX 4070 Super": {
-            "min": 420,
-            "max": 700,
-            "mediane": 570,
-            "moyenne": 562.33,
-            "nb": 15
+            "min": 520,
+            "max": 900,
+            "mediane": 600.0,
+            "moyenne": 654.29,
+            "nb": 14
         },
         "RTX 4070": {
-            "min": 399,
-            "max": 730,
-            "mediane": 500,
-            "moyenne": 520.47,
-            "nb": 19
+            "min": 400,
+            "max": 900,
+            "mediane": 600,
+            "moyenne": 609,
+            "nb": 25
         },
         "RTX 4060 Ti 16GB": {
-            "min": 370,
-            "max": 450,
-            "mediane": 400.0,
-            "moyenne": 405,
-            "nb": 4
+            "min": 400,
+            "max": 600,
+            "mediane": 410,
+            "moyenne": 452,
+            "nb": 5
         },
         "RTX 4060 Ti 8GB": {
-            "min": 285,
+            "min": 200,
             "max": 500,
-            "mediane": 329,
-            "moyenne": 346.08,
-            "nb": 13
-        },
-        "RTX 4060": {
-            "min": 180,
-            "max": 400,
-            "mediane": 250.0,
-            "moyenne": 265.7,
+            "mediane": 345.0,
+            "moyenne": 345.9,
             "nb": 20
         },
+        "RTX 4060": {
+            "min": 200,
+            "max": 335,
+            "mediane": 265.0,
+            "moyenne": 267.95,
+            "nb": 22
+        },
         "RTX 3090": {
-            "min": 550,
+            "min": 1099,
             "max": 1500,
-            "mediane": 999,
-            "moyenne": 1058.09,
-            "nb": 11
+            "mediane": 1200.0,
+            "moyenne": 1253.35,
+            "nb": 20
         },
         "RTX 3080 Ti": {
             "min": 330,

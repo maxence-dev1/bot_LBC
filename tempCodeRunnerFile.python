@@ -1,14 +1,41 @@
-import asyncio
-from telegram import Bot
+import re
+
+import requests
+
+from annonce import Annonce
+
 from dotenv import load_dotenv
 import os
+import scraper
 
-load_dotenv()
-TOKEN = os.environ["API_TELEGRAM"]
-CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
-async def envoyer_message(texte: str):
-    bot = Bot(token=TOKEN)
-    await bot.send_message(chat_id=CHAT_ID, text=texte)
 
-asyncio.run(envoyer_message("Test depuis mon bot LBC 🖥️"))
+import json
+
+
+def get_build_id():
+      """Récupère (et met en cache) le buildId Next.js actuel du site Leboncoin."""
+      global BUILD_ID_CACHE
+      if BUILD_ID_CACHE is not None:
+            return BUILD_ID_CACHE
+
+      response = requests.get("https://www.leboncoin.fr/",
+                        headers={"User-Agent": os.environ["USER_AGENT"], "Cookie": os.environ["COOKIE"]})
+      match = re.search(r'"buildId":"(.*?)"', response.text)
+      if match is None:
+            raise Exception("buildId introuvable dans la page d'accueil Leboncoin")
+
+      BUILD_ID_CACHE = match.group(1)
+      return BUILD_ID_CACHE
+
+
+def debug_ad_structure(list_id):
+    """Fonction de debug : affiche toute la structure JSON pour trouver les bons champs"""
+    build_id = get_build_id()
+    response = requests.get(
+        f"https://www.leboncoin.fr/_next/data/{build_id}/ad/ordinateurs/{list_id}.json?cat=ordinateurs&id={list_id}",
+        headers={"User-Agent": os.environ["USER_AGENT"], "Cookie": os.environ["COOKIE"]},
+    )
+    ad_data = response.json()["pageProps"]["ad"]
+    print(json.dumps(ad_data, indent=2, ensure_ascii=False))
+    return ad_data

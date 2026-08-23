@@ -35,6 +35,8 @@ import time
 
 load_dotenv()
 
+MODEL_FILTRE = "openai/gpt-oss-20b"
+
 MOTS_EXCLUS = [
     "pc ",
     "pc gamer",
@@ -139,7 +141,7 @@ def filtrer_comp_seuls_chunk(annonces, max_retries=3):
     for tentative in range(max_retries):
         try:
             completion = client.chat.completions.create(
-                model="llama-3.1-8b-instant",
+                model=MODEL_FILTRE,
                 messages=[{"role": "system", "content": INSTRUCTIONS}, {"role": "user", "content": text_annonces}],
                 response_format={"type": "json_object"},
                 temperature=0,
@@ -205,6 +207,27 @@ def calculer_moyenne(comp, progress, tache):
     }
 
 
+def calculer_moyenne_auto(comp):
+    """Calcule la moyenne des annonces valides du composant 'comp'"""
+    annonces = get_list_comp(comp)
+    data = filtrer_comp_seuls(annonces)
+    id_valides = {r["id"] for r in data if r["composant_seul"]}  # Les ID qui ont été marqué comme valide
+
+    price_list = [a["price"][0] for a in annonces if a["list_id"] in id_valides]  # La liste des prix valides
+    price_list_final = filtre_iqr(price_list)
+    if not price_list_final:
+        return {"min": None, "max": None, "mediane": None, "moyenne": None, "nb": 0}
+
+    # [min , max , moyenne , mediane]
+    return {
+        "min": min(price_list_final),
+        "max": max(price_list_final),
+        "mediane": round(statistics.median(price_list_final), 2),
+        "moyenne": round(statistics.mean(price_list_final), 2),
+        "nb": len(price_list_final),
+    }
+
+
 def update_all_price(progress, tache, tot, comp_to_scrap=["gpu", "cpu", "ram", "stockage"]):
     """Lance la mise à jour des prix actuels du marché de tous les composants de 'prix_composants.json'"""
 
@@ -219,6 +242,26 @@ def update_all_price(progress, tache, tot, comp_to_scrap=["gpu", "cpu", "ram", "
         for comp in data[categorie]:
             try:
                 res[categorie][comp] = calculer_moyenne(comp, progress, tache)
+                print(comp, "->", res[categorie][comp])
+            except Exception as e:
+                print(f"✗ Erreur sur {comp}, ignoré : {e}")
+                continue
+
+            json_fun.save_json(res, "prix_marche.json")
+
+
+def update_all_price_auto():
+    """Lance la mise à jour des prix actuels du marché de tous les composants de 'prix_composants.json'"""
+
+    data = json_fun.read_json("prix_composants.json")
+    res = json_fun.read_json("prix_marche.json") if os.path.exists("prix_marche.json") else {}
+
+    for categorie in ["gpu", "cpu", "ram", "stockage"]:
+        res.setdefault(categorie, {})
+
+        for comp in data[categorie]:
+            try:
+                res[categorie][comp] = calculer_moyenne_auto(comp)
                 print(comp, "->", res[categorie][comp])
             except Exception as e:
                 print(f"✗ Erreur sur {comp}, ignoré : {e}")

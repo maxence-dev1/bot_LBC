@@ -10,6 +10,8 @@ import json_fun
 load_dotenv()
 
 
+MODEL_ANALYSE = "openai/gpt-oss-120b"
+
 client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
 
@@ -79,7 +81,7 @@ def extraire_composants(body, price, progress, tache):
       "raison": "..."
     }"""
     completion = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model=MODEL_ANALYSE,
         messages=[{"role": "system", "content": INSTRUCTIONS}, {"role": "user", "content": body}],
         response_format={"type": "json_object"},
     )
@@ -94,6 +96,8 @@ def get_comp_price(classe, comp):
     data = json_fun.read_json("prix_marche.json")
 
     if comp not in data[classe]:
+        print(f"composant inconnu : {comp}, ajouté à la base de connaissances")
+        json_fun.add_comp_to_json("prix_composants.json", comp, classe)
         return -1
     else:
         return data[classe][comp]

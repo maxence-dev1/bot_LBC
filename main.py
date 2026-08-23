@@ -36,7 +36,10 @@ def lancer_scrap_prix(comp):
 
         tache = progress.add_task(f"[cyan] mise à jour des prix du marché en cours...", total=tot)
 
-        scraper_prix.update_all_price(progress, tache, tot, [comp])
+        if comp == "tout":
+            scraper_prix.update_all_price(progress, tache, tot)
+        else:
+            scraper_prix.update_all_price(progress, tache, tot, [comp])
 
     print(f"\n[bold green]✓[/bold green] mise à jour des prix du marché terminée avec succès !\n")
 
@@ -82,10 +85,6 @@ def lancer_scrap_PC(recherche):
         if inte:
             liste_pc.append(pc)
             bot_telegram.envoyer_message(pc, a)
-
-    print("liste des pc interessants : ")
-    for pc in liste_pc:
-        pc.PrintPC()
 
     json_fun.save_json(scrapped_annonces, "scraped_annonce.json")
 
